@@ -13,7 +13,8 @@ body {
 
 body {
   /* Цвет текста по умолчанию из твоего макета */
-  color: #3b434e;
+  color: var(--black);
+  background-color: #f5f6f8;
   /* Плавное сглаживание шрифтов */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -29,4 +30,16 @@ img {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+:root {
+  /* Цвета из твоего макета */
+  --black: #3b434e;
+  --gray-light: #ebebeb;
+  --white: #ffffff;
+  --primary-color: #7653fc;
+  --primary-hover: #5b43c8;
+  --red: #fc836d;
+  --green: #1dc37e;
+  --green-light: #c8f8e4;
 }
