@@ -29,3 +29,13 @@
   background-color: var(--primary-color);
   color: var(--white);
 }
+
+.arrow {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.down {
+  transform: rotate(90deg);
+  transition: all 0.2s ease;
+}
