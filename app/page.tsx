@@ -1,6 +1,6 @@
 
 
-import { Htag, Button } from '@/components';
+import { Htag, Button, Ptag } from '@/components';
 
 
 export default function Home() {
@@ -11,6 +11,9 @@ export default function Home() {
         <Htag tag="h3">Tag H3</Htag>
         <Button appearance="primary" arrow='right'>Primary Button</Button>
         <Button appearance="ghost" arrow='down'>Ghost Button</Button>
+        <Ptag tag="p14">Paragraph 14</Ptag>
+        <Ptag tag="p16">Paragraph 16</Ptag>
+        <Ptag tag="p18">Paragraph 18</Ptag>
     </main>
   );
 }
