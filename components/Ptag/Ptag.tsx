@@ -1,7 +1,7 @@
 import { PtagProps } from './Ptag.props';
 import styles from './Ptag.module.css';
 
-export const Ptag = ({tag, children}: PtagProps): React.ReactElement => {
+export const Ptag = ({tag = "p14", children}: PtagProps): React.ReactElement => {
   return (
     <>
       {tag === 'p14' && <p className={styles.p14}>{children}</p>}

@@ -1,6 +1,6 @@
 
 
-import { Htag, Button, Ptag } from '@/components';
+import { Htag, Button, Ptag, Tag } from '@/components';
 
 
 export default function Home() {
@@ -14,6 +14,11 @@ export default function Home() {
         <Ptag tag="p14">Paragraph 14</Ptag>
         <Ptag tag="p16">Paragraph 16</Ptag>
         <Ptag tag="p18">Paragraph 18</Ptag>
+        <Tag size="s" >Ghost</Tag>
+        <Tag size="m" color="red">Medium Red Tag</Tag>
+        <Tag size="s" color="green">Large Green Tag</Tag>
+        <Tag color="primary">Medium Primary Tag</Tag>
+        <Tag size="s" color="green" href="https://google.com">Google</Tag>
     </main>
   );
 }
