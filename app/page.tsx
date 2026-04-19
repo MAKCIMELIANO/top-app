@@ -1,9 +1,12 @@
+"use client";
 
-
-import { Htag, Button, Ptag, Tag } from '@/components';
+import { Htag, Button, Ptag, Tag, Rating } from '@/components';
+import { useState } from 'react';
 
 
 export default function Home() {
+    const [rating, setRating] = useState<number>(4);
+
   return (
     <main>
         <Htag tag="h1">Tag H1</Htag>
@@ -19,6 +22,7 @@ export default function Home() {
         <Tag size="s" color="green">Large Green Tag</Tag>
         <Tag color="primary">Medium Primary Tag</Tag>
         <Tag size="s" color="green" href="https://google.com">Google</Tag>
+        <Rating rating={rating} isEditable setRating={setRating} />
     </main>
   );
 }

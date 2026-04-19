@@ -1,0 +1,17 @@
+.rating {
+  display: inline-flex;
+  gap: 2px;
+}
+
+.star {
+  color: var(--gray-light);
+  transition: color 0.2s ease;
+}
+
+.star.filled {
+  color: var(--primary-color);
+}
+
+.editable .star {
+  cursor: pointer;
+}
