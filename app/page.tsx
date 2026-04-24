@@ -8,7 +8,7 @@ export default function Home() {
     const [rating, setRating] = useState<number>(4);
 
   return (
-    <main>
+    <>
         <Htag tag="h1">Tag H1</Htag>
         <Htag tag="h2">Tag H2</Htag>
         <Htag tag="h3">Tag H3</Htag>
@@ -23,6 +23,6 @@ export default function Home() {
         <Tag color="primary">Medium Primary Tag</Tag>
         <Tag size="s" color="green" href="https://google.com">Google</Tag>
         <Rating rating={rating} isEditable setRating={setRating} />
-    </main>
+    </>
   );
 }
